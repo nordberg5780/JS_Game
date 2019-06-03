@@ -16,18 +16,22 @@ body {
 }
 
   .center {      
-    width: 1024px;
+    width: 900px;
     height: 768px;
     padding-top: 200px;      
     background-image: url("../images/zoltar.jpg");
     background-repeat: no-repeat;
-    align-self: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: 0%;
+    
 
   }
 
   .wrapper {
     margin-top: 30%;
-    float: right;
+    text-align: center;
+    background-color: black;
   }
 
   #won {
