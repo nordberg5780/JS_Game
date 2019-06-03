@@ -1,0 +1,55 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;      
+    color: #ffffff;      
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align:center;
+    vertical-align:center;
+    line-height: 36px;  
+}
+
+  .container {
+    display: flex;
+    justify-content: center;
+    background-color: black;   
+}
+
+  .center {      
+    width: 1024px;
+    height: 768px;
+    padding-top: 200px;      
+    background-image: url("../images/zoltar.jpg");
+    background-repeat: no-repeat;
+    align-self: auto;
+
+  }
+
+  .wrapper {
+    margin-top: 30%;
+    float: right;
+  }
+
+  #won {
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+
+  #lost {
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+
+  #attempts {
+    color: #ffffff;
+    font-size: 1.2em;
+  }
+
+  #playerGuess {
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }

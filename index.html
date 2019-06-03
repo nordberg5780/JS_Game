@@ -1,40 +1,55 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Recap Conditionals and Loops</title>
-  </head>
-  <body>
+<html lang="en">
 
-    <h1>Open the console to see the magic!</h1>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script>
+	<title>The Zoltar Psychic Game</title>
 
-      // Instructions:
-      // Using the given arrays, complete the questions below!
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-      // Rows of Students
-      var studentsRow1 = ["Rachelle", "Jacob", "Jerome", "Greg", "Matt", "Walt"];
-      var studentsRow2 = ["Jeremiah", "Luis", "Nathan", "Analben"];
-      var studentsRow3 = ["Aisha", "Stephen", "John"];
+	<link href="https://fonts.googleapis.com/css?family=Fondamento" rel="stylesheet">
 
-      // Entire Class
-      var entireClass = [studentsRow1, studentsRow2, studentsRow3];
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	 crossorigin="anonymous">
+	</script>
 
+</head>
 
-      // How do we print out every single student in Row 1?
+<body>
 
+	<div class="container">
+		<div class="center">
+			<div class="wrapper">
 
-      // How do we print out every student in Row 2 whose first name begins with J?
+				<h3>Won</h3>
 
+				<span id="won"></span>
 
-      // Using the entireClass array, how do we access the second student in row 3?
+				<h3>Lost</h3>
 
+				<span id="lost"></span>
 
-      // Using the entireClass array, how do we access the third student in row 2?
+				<p>Guesses Remaining...
+					<span id="attempts"></span>
+				</p>
 
+				<p>Letters Already Guessed</p>
 
-    </script>
-    
-  </body>
+				<span id="playerGuess"></span>
+
+				<h1>Guess Zoltar's Random Letter</h1>
+
+				<h3>You only have 10 guesses...choose carefully.</h3>
+			</div>
+		</div>
+		</container>
+
+		<script src="assets/js/game3.js"></script>
+
+</body>
+
 </html>
